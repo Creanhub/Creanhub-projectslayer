@@ -3,17 +3,17 @@ local placeId = game.PlaceId
 
 if placeId == 6152116144 or placeId == 13883279773 then
 -- map 1
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Map1?token=GHSAT0AAAAAACESX2WYRA3QXFB676WCERPUZFA6QUA"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Map1"))()
 elseif placeId == 11468159863 or placeId == 13881804983 or placeId == 13883059853 then
    -- map 2
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Map2?token=GHSAT0AAAAAACESX2WYG2D3MC3D4F6K7DIQZFA6REA"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Map2"))()
 elseif placeId == 5956785391 then 
    -- menu
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Menu?token=GHSAT0AAAAAACESX2WYIP2QMSZBMVDDJ2QYZFA6TKA"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Menu"))()
 elseif placeId == 11468034852 then
    -- mugen
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Mugen?token=GHSAT0AAAAAACESX2WZONAE7HB2WPM2ATNSZFA6RTA"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Mugen"))()
 else
    -- dungeon ouw
- loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Dungeon?token=GHSAT0AAAAAACESX2WZCCW2OY6QRLFQPBGIZFA6R5A"))()
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Dungeon"))()
 end
