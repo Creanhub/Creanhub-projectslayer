@@ -1,0 +1,19 @@
+workspace.FallenPartsDestroyHeight = -50000
+local placeId = game.PlaceId
+
+if placeId == 6152116144 or placeId == 13883279773 then
+-- map 1
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/mobile/map1"))()
+elseif placeId == 11468159863 or placeId == 13881804983 or placeId == 13883059853 then
+   -- map 2
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/mobile/map2"))()
+elseif placeId == 5956785391 then 
+   -- menu
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/Premium/Menu"))()
+elseif placeId == 11468034852 then
+   -- mugen
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/mobile/Mugen"))()
+else
+   -- dungeon ouw
+ loadstring(game:HttpGet("https://raw.githubusercontent.com/Creanhub/Creanhub-projectslayer/main/mobile/Ouwdungeon"))()
+end
