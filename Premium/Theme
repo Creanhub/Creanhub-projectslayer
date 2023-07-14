@@ -5,11 +5,11 @@ local ThemeManager = {} do
 
 	ThemeManager.Library = nil
 	ThemeManager.BuiltInThemes = {
-    ['Default'] 	= { 1, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"FF0000","AccentColor":"000000","BackgroundColor":"000000","OutlineColor":"FFFFFF"}') },
-		['BBot'] 			= { 1, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"FFFFFF","AccentColor":"000000","BackgroundColor":"000000","OutlineColor":"000000"}') },
+    ['Default'] 	= { 1, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"000000","AccentColor":"000000","BackgroundColor":"000000","OutlineColor":"000000"}') },
+		['BBot'] 			= { 1, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"000000","AccentColor":"000000","BackgroundColor":"000000","OutlineColor":"000000"}') },
 		['Fatality']		= { 2, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"FFFFFF","AccentColor":"000000","BackgroundColor":"252122","OutlineColor":"000000"}') },
-		['Jester'] 			= { 3, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"FFFFFF","AccentColor":"000000","BackgroundColor":"000000","OutlineColor":"000000"}') },
-		['Mint'] 			= { 4, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"FFFFFF","AccentColor":"000000","BackgroundColor":"000000","OutlineColor":"000000"}') },
+		['Jester'] 			= { 3, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"000000","AccentColor":"000000","BackgroundColor":"000000","OutlineColor":"000000"}') },
+		['Mint'] 			= { 4, httpService:JSONDecode('{"FontColor":"FFFFFF","MainColor":"000000","AccentColor":"000000","BackgroundColor":"000000","OutlineColor":"000000"}') },
 
     }
 
